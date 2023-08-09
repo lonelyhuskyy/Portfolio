@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { useState } from "react";
+// import { useState } from "react";
 import navicon1 from '../assets/img/nav-icon1.svg';
 import navicon2 from '../assets/img/github-mark-white.svg';
 import navicon3 from '../assets/img/nav-icon3.svg';
 
 export const Footer = () => {   
 
-    const [buttonText, setButtonText] = useState("Download CV");
+    // const [buttonText, setButtonText] = useState("Download CV");
 
 
   return (
@@ -15,11 +15,11 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col sm={4} className="colFooter">
             <a href="#home" className="footer-brand"><span>Raghav Khanna</span></a>
-            <Row>
+            {/* <Row>
                 <button className="download" type="submit">
                     <span>{buttonText}</span>
                 </button>
-            </Row>
+            </Row> */}
           </Col>
           <Col sm={4} className="colFooter">
             <Row>

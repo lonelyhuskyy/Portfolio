@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 1000;
-  const [buttonText, setButtonText] = useState("Download CV");
+  // const [buttonText, setButtonText] = useState("Download CV");
 
   const tick = useCallback(() => {
     let i = loopNum % toRotate.length;
@@ -71,11 +71,11 @@ export const Banner = () => {
                   </button>
                 </a>
               </Col>
-              <Col md={4}>
+              {/* <Col md={4}>
                 <button className="download" type="submit">
                   <span>{buttonText}</span>
                 </button>
-              </Col>
+              </Col> */}
             </Row>
           </Col>
           <Col xs={12} md={6} xl={5}>
